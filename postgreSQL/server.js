@@ -32,7 +32,7 @@ async function init() {
   app.use(express.static('./static'));
   app.listen(PORT);
 
-  console.log(`running on http://localhost:${PORT}`);
+  console.log(`🚀 running on http://localhost:${PORT}`);
 }
 
 init();
